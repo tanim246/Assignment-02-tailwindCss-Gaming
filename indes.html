@@ -15,17 +15,21 @@
   </head>
   <body>
     <!-- navber -->
-    <nav class="flex justify-between items-center max-w-5xl m-auto mt-7">
+    <nav
+      class="flex flex-col sm:justify-between sm:flex-row items-center max-w-5xl m-auto mt-7"
+    >
       <!-- logo-part -->
-      <div class="flex items-center gap-2">
+      <div class="flex mb-4 items-center gap-2">
         <i class="fa-solid fa-gamepad text-4xl text-[#FF42A5]"></i>
         <p class="text-[24px] font-bold">
           <span class="text-[#FF42A5]">G</span>amer
         </p>
       </div>
       <!-- button-part -->
-      <div class="flex justify-between items-center gap-6">
-        <div class="space-x-4">
+      <div
+        class="flex flex-col sm:flex-row sm:justify-between items-center gap-6"
+      >
+        <div class="space-x-4 flex items-center flex-col gap-4 sm:flex-row">
           <a href="" class="text-[14px]">About Us</a>
           <a href="" class="text-[14px]">Developers</a>
         </div>
@@ -40,12 +44,14 @@
         </div>
       </div>
     </nav>
-    <main class="bg-gray-200">
+    <main class="bg-gray-100">
       <!--  hero part -->
       <section>
-        <div class="flex justify-between items-center max-w-5xl m-auto mt-7">
+        <div
+          class="flex flex-col-reverse gap-8 px-4 sm:flex-row justify-between items-center max-w-5xl m-auto mt-7 py-6"
+        >
           <!-- contant -->
-          <div class="text-left">
+          <div class="text-left flex flex-col">
             <p class="text-2xl font-semibold">Play Like The</p>
             <p class="text-[40px] font-extrabold">G.O.A.T.</p>
             <div class="mb-4 mt-3 text-left">
@@ -94,19 +100,19 @@
         </div>
       </section>
       <!-- second-section -->
-      <!-- bunas -1 -->
+
       <section
-        class="flex justify-between gap-[52px] items-center max-w-5xl m-auto mt-14"
+        class="flex flex-col px-3 sm:flex-row sm:justify-between gap-[52px] items-center max-w-5xl m-auto mt-14"
       >
         <div>
           <img src="Images/pngwing 4.png" alt="image" width="100%" />
         </div>
         <!-- contant -->
-        <div class="text-right">
+        <div class="text-center sm:text-right">
           <h1 class="text-[24px] font-bold mb-2">We are gamer</h1>
           <p class="text-[14px]">
             An international digital games and entertainment <br />
-            company. We developers publish and distribute multiplayer <br />
+            company. We developers publish and distribute <br />
             mobile games. We reach over 400 million players each month and our
             audience keeps growing.
           </p>
@@ -120,9 +126,10 @@
         </div>
       </section>
       <!-- images Section -->
+      <!-- bunas -1 -->
       <section class="max-w-5xl m-auto mt-14">
-        <div class="text-center">
-          <p class="text-[24px] font-bold">
+        <div class=" text-center">
+          <p class="text-[24px] font-bold ">
             Online Games <span class="text-blue-500">Funny Videos</span>
           </p>
           <p class="text-[11px]">
@@ -130,30 +137,30 @@
           </p>
         </div>
         <!-- images ogun haha -->
-        <div class="flex items-center space-x-3 mt-6">
+        <div class="flex flex-col gap-5  sm:flex-row  items-center space-x-x mt-6">
           <div>
-            <img src="Images/Rectangle 4 (2).png" alt="image" />
+            <img src="Images/Rectangle 4 (2).png" alt="image" class="w-[250px] sm:w-full" />
             <p class="text-[11px] mt-3">
               No Download. No Installs. Play <br />
               games Instantly on Gamer.
             </p>
           </div>
           <div>
-            <img src="Images/Rectangle 4 (3).png" alt="image" />
+            <img src="Images/Rectangle 4 (3).png" alt="image" class="w-[250px] sm:w-full" />
             <p class="text-[11px] mt-3">
               Did you score? #unblockedgames <br />
               #school
             </p>
           </div>
           <div>
-            <img src="Images/Rectangle 4 (4).png" alt="image" />
+            <img src="Images/Rectangle 4 (4).png" alt="image" class="w-[250px] sm:w-full" />
             <p class="text-[11px] mt-3">
               Breaking game records <br />
               like OG
             </p>
           </div>
           <div>
-            <img src="Images/Rectangle 4 (2).png" alt="image" />
+            <img src="Images/Rectangle 4 (2).png" alt="image" class="w-[250px] sm:w-full" />
             <p class="text-[11px] mt-3">
               Busted gaming on school laptop, <br />
               but you are still lit.
@@ -264,9 +271,104 @@
         </div>
       </section>
       <!-- bunas-2 -->
-
+      <section class="max-w-5xl mx-auto my-5 p-4">
+        <div class="flex flex-wrap justify-center gap-4">
+          <!-- bunas item -->
+          <div
+            class="flex items-center gap-3 px-4 py-2 rounded-full hover:text-[#FF42A5] hover:border-[#FF42A5] border-2 border-transparent cursor-pointer"
+          >
+            <img
+              class="w-10 h-10 rounded-full"
+              src="Images/Rectangle 11.png"
+              alt=" Games-small-img"
+            />
+            <span class="text-sm font-semibold">Action Games</span>
+          </div>
+          <div
+            class="flex items-center gap-3 px-4 py-2 rounded-full hover:text-[#FF42A5] hover:border-[#FF42A5] border-2 border-transparent cursor-pointer"
+          >
+            <img
+              class="w-10 h-10 rounded-full"
+              src="Images/Rectangle 11 (1).png"
+              alt=" Games-small-img"
+            />
+            <span class="text-sm font-semibold">Adventure Games</span>
+          </div>
+          <div
+            class="flex items-center gap-3 px-4 py-2 rounded-full hover:text-[#FF42A5] hover:border-[#FF42A5] border-2 border-transparent cursor-pointer"
+          >
+            <img
+              class="w-10 h-10 rounded-full"
+              src="Images/Rectangle 11 (2).png"
+              alt=" Games-small-img"
+            />
+            <span class="text-sm font-semibold">Arcade Games</span>
+          </div>
+          <div
+            class="flex items-center gap-3 px-4 py-2 rounded-full hover:text-[#FF42A5] hover:border-[#FF42A5] border-2 border-transparent cursor-pointer"
+          >
+            <img
+              class="w-10 h-10 rounded-full"
+              src="Images/Rectangle 11 (3).png"
+              alt=" Games-small-img"
+            />
+            <span class="text-sm font-semibold">Educational Games</span>
+          </div>
+          <div
+            class="flex items-center gap-3 px-4 py-2 rounded-full hover:text-[#FF42A5] hover:border-[#FF42A5] border-2 border-transparent cursor-pointer"
+          >
+            <img
+              class="w-10 h-10 rounded-full"
+              src="Images/Rectangle 11 (4).png"
+              alt=" Games-small-img"
+            />
+            <span class="text-sm font-semibold">Word Games</span>
+          </div>
+          <div
+            class="flex items-center gap-3 px-4 py-2 rounded-full hover:text-[#FF42A5] hover:border-[#FF42A5] border-2 border-transparent cursor-pointer"
+          >
+            <img
+              class="w-10 h-10 rounded-full"
+              src="Images/Rectangle 11 (5).png"
+              alt=" Games-small-img"
+            />
+            <span class="text-sm font-semibold">Role Palying Games</span>
+          </div>
+          <div
+            class="flex items-center gap-3 px-4 py-2 rounded-full hover:text-[#FF42A5] hover:border-[#FF42A5] border-2 border-transparent cursor-pointer"
+          >
+            <img
+              class="w-10 h-10 rounded-full"
+              src="Images/Rectangle 11 (6).png"
+              alt=" Games-small-img"
+            />
+            <span class="text-sm font-semibold">Music & Audio Games</span>
+          </div>
+          <div
+            class="flex items-center gap-3 px-4 py-2 rounded-full hover:text-[#FF42A5] hover:border-[#FF42A5] border-2 border-transparent cursor-pointer"
+          >
+            <img
+              class="w-10 h-10 rounded-full"
+              src="Images/Rectangle 11 (7).png"
+              alt=" Games-small-img"
+            />
+            <span class="text-sm font-semibold">Puzzle Games</span>
+          </div>
+          <div
+            class="flex items-center gap-3 px-4 py-2 rounded-full hover:text-[#FF42A5] hover:border-[#FF42A5] border-2 border-transparent cursor-pointer"
+          >
+            <img
+              class="w-10 h-10 rounded-full"
+              src="Images/Rectangle 11 (8).png"
+              alt=" Games-small-img"
+            />
+            <span class="text-sm font-semibold">Strategy Games</span>
+          </div>
+        </div>
+      </section>
+      <!-- footer part -->
       <footer class="bg-[#0B0223]">
-        <div class="text-center py-[30px] space-y-3" >
+        <div class="text-center py-[30px] space-y-3">
           <!-- logo -->
           <div class="flex justify-center items-center gap-2">
             <i class="fa-solid fa-gamepad text-4xl text-[#FF42A5]"></i>
@@ -284,7 +386,7 @@
             <a href="">My Account</a>
           </div>
           <!-- footer icon -->
-          <div class="text-white space-x-3 text-[20px] ">
+          <div class="text-white space-x-3 text-[20px]">
             <i class="fa-brands fa-twitter cursor-pointerj"></i>
             <i class="fa-brands fa-facebook cursor-pointerj"></i>
             <i class="fa-brands fa-youtube cursor-pointerj"></i>
@@ -292,13 +394,15 @@
             <i class="fa-brands fa-instagram cursor-pointerj"></i>
             <i class="fa-brands fa-apple cursor-pointerj"></i>
           </div>
-          <div class=" text-gray-400 space-x-8 font-semibold text-[10px]">
+          <div class="text-gray-400 space-x-8 font-semibold text-[10px]">
             <a href="">Terms and Conditions</a>
             <a href="">Privacy Policy</a>
             <a href="">Cookie Policy</a>
             <a href="">Privacy Settings</a>
           </div>
-          <p class="text-[10px] text-gray-400">Play Games @ Gamer @ 2000-2023 Gamer Bangladesh</p>
+          <p class="text-[10px] text-gray-400">
+            Play Games @ Gamer @ 2000-2023 Gamer Bangladesh
+          </p>
         </div>
       </footer>
     </main>
